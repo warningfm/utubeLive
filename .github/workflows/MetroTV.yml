@@ -41,8 +41,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x TVDI.sh
-          ./TVDI.sh
+          chmod +x MetroTV.sh
+          ./MetroTV.sh
         
       - name: git add
         run: |
