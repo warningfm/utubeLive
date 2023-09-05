@@ -41,8 +41,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x SukeTV.sh
-          ./SukeTV.sh
+          chmod +x AlQuranKareem.sh
+          ./AlQuranKareem.sh
         
       - name: git add
         run: |
