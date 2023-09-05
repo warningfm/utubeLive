@@ -8,4 +8,4 @@ cd $(dirname $0)/scripts/
 
 python3 AlQuranKareem.py > ../AlQuranKareem.m3u8
 
-echo m3u8 grabbed
+echo m3u grabbed
