@@ -1,5 +1,5 @@
 ~~ DO NOT EDIT THE FIRST 2 LINES
 ~~ FORMAT: <channel name> | <group name> | <logo> | <tvg-id>
 
-1 | 1 | | 
+Metro TV | Nasional |https://cdn4.mbahnunungonline.net/img/Dw3SKHg.png?v=1.0.0.1 | 
 https://www.youtube.com/@metrotvnews/live
