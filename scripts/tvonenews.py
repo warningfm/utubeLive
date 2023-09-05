@@ -37,7 +37,7 @@ def grab(url):
     #print(f"{link[start : end]}")
 
 print('#EXTM3U')
-print('#EXT-X-INDEPENDENT-SEGMENTS')
+print('#EXT-X-VERSION:3')
 print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2487000')
 s = requests.Session()
 with open('../tvonenews_info.txt') as f:
