@@ -34,8 +34,8 @@ jobs:
       - name: config
         run: |
           git pull
-          git config --global user.email "kevon0@courtsugkq.com"
-          git config --global user.name "digitaldotmy"
+          git config --global user.email "warningfm@gmail.com"
+          git config --global user.name "warningfm"
       
       
       - name: Main
