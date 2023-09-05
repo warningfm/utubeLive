@@ -38,7 +38,7 @@ def grab(url):
 
 print('#EXTM3U')
 print('#EXT-X-VERSION:3')
-print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=7680000')
+print('#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2487000,FRAME-RATE=30,RESOLUTION=1280x720')
 s = requests.Session()
 with open('../MetroTV_info.txt') as f:
     for line in f:
