@@ -13,12 +13,12 @@ def grab(url):
     response = s.get(url, timeout=15).text
     if '.m3u8' not in response:
         if windows:
-            print('https://raw.githubusercontent.com/digitaldotmy/YoutubeLive/main/assets/Interrupted.m3u')
+            print('https://s7.mbahnunungonline.net/live/m3u8/op/7335edf66aba710.m3u8')
             return
         os.system(f'wget {url} -O temp.txt')
         response = ''.join(open('temp.txt').readlines())
         if '.m3u8' not in response:
-            print('https://raw.githubusercontent.com/digitaldotmy/YoutubeLive/main/assets/Interrupted.m3u')
+            print('https://s7.mbahnunungonline.net/live/m3u8/op/7335edf66aba710.m3u8')
             return
     end = response.find('.m3u8') + 5
     tuner = 100
