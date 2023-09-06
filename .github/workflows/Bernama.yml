@@ -41,8 +41,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x BERNAMATV.sh
-          ./BERNAMATV.sh
+          chmod +x Bernama.sh
+          ./Bernama.sh
         
       - name: git add
         run: |
