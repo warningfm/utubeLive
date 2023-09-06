@@ -6,6 +6,6 @@ python3 -m pip install requests
 
 cd $(dirname $0)/scripts/
 
-python3 BERNAMATV.py > ../BERNAMATV.m3u8
+python3 Bernama.py > ../Bernama.m3u8
 
 echo m3u grabbed
