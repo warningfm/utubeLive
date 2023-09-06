@@ -8,4 +8,4 @@ cd $(dirname $0)/scripts/
 
 python3 Bernama.py > ../Bernama.m3u8
 
-echo m3u grabbe
+echo m3u grabbed
