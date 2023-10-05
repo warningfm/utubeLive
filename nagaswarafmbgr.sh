@@ -6,6 +6,6 @@ python3 -m pip install requests
 
 cd $(dirname $0)/scripts/
 
-python3 MuseMalaysia.py > ../nagaswarafmbgr.m3u8
+python3 nagaswarafmbgr.py > ../nagaswarafmbgr.m3u8
 
 echo m3u grabbed
