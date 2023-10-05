@@ -41,8 +41,8 @@ jobs:
       - name: Main
         run: |
           pwd
-          chmod +x MuseMalaysia.sh
-          ./MuseMalaysia.sh
+          chmod +x nagaswarafmbgr.sh
+          ./nagaswarafmbgr.sh
         
       - name: git add
         run: |
